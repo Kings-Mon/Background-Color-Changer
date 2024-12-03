@@ -1,0 +1,79 @@
+/* Reset margin for the HTML element */
+html {
+  margin: 0;
+}
+
+/* Remove any extra space inside the span and make them block level for easy styling */
+span {
+  display: block;
+}
+
+/* Center the canvas with a margin and width adjustment */
+.canvas {
+  margin: 100px auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* Style the buttons: size, border, and display */
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid 2px black;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer; /* Show a pointer cursor to indicate the button is clickable */
+  transition: transform 0.2s ease-in-out; /* Smooth transform effect */
+}
+
+/* Add hover effect for buttons */
+.button:hover {
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Button color definitions */
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+
+#blue {
+  background: blue;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+}
+
+/* Styling the header for a better layout */
+h1 {
+  font-size: 2rem;
+  color: black;
+}
+
+/* Styling for the subheading */
+h2 {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+h2 span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Smooth background color transition for the body */
+body {
+  transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
